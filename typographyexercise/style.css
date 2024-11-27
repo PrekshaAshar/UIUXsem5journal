@@ -1,0 +1,152 @@
+/* Fonts */
+/* ------------------------------------------------- */
+
+@font-face  {
+font-family: 'Font Name';
+src: url('./fonts/font-name.eot');
+src: url('./fonts/font-name.eot?#iefix') format('embedded-opentype'),
+     url('./fonts/font-name.woff2') format('woff2'),
+     url('./fonts/font-name.woff') format('woff'),
+     url('./fonts/font-name.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+
+/* CSS Resets */
+/* ------------------------------------------------- */
+
+
+html  {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body  {
+  margin: 0;
+  padding: 50px;
+  height: 100vh;   
+  width: 100vw; 
+  background-color: beige;    
+}
+
+*   { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* Actual Styling */
+/* ------------------------------------------------- */
+
+.box{
+  background-color: red;
+  color: white;
+  padding: 50px;
+  box-shadow: 0 8px 20px black;
+}
+
+h1{
+  text-align: center;
+  font-size: 100PX;
+  text-shadow:0 8px 20px black ;
+}
+
+h2{
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 80px;
+  text-shadow:0 4px 10px black ;
+}
+
+P {
+  font-size: 40PX;
+}
+
+.TWO {
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px ;
+}
+
+.ONE {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60PX ;
+}
+
+.THREE {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+
+.FOUR {
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.FIVE {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 70 PX;
+}
+
+.SIX {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50 PX;
+}
+
+.SEVEN {
+  
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 50px;
+  
+}
+
+.EIGHT {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60PX;
+}
+
+.NINE {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+.TEN {
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ELEVEN {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30PX;
+}
